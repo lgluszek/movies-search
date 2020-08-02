@@ -1,11 +1,8 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import {
-  StylesProvider,
-  ThemeProvider as MuiThemeProvider,
-} from '@material-ui/core';
 import { Provider } from 'react-redux';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
+import { StylesProvider, MuiThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { BrowserRouter } from 'react-router-dom';
 

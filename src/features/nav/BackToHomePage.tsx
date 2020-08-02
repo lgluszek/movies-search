@@ -18,6 +18,7 @@ const BackToHomePage: FC<BackToHomePageProps> = ({ className }) => (
       startIcon={<KeyboardBackspaceIcon />}
       component={Link}
       to={paths.root}
+      data-testid="back-to-dashboard-button"
     >
       Back to dashboard
     </Button>
