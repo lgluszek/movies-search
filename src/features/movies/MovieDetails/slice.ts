@@ -14,7 +14,6 @@ type Movie = {
   year: string;
   plot: string;
   poster: string | null;
-  imdbRating: string;
 };
 
 const initialState: {
@@ -52,7 +51,6 @@ const mapMovieDetails = (movie: MovieDetails) => ({
   year: movie.Year,
   plot: movie.Plot,
   poster: movie.Poster === 'N/A' ? null : movie.Poster,
-  imdbRating: movie.imdbRating,
 });
 
 export const getMovie = (params: GetMovieParams): AppThunk => async (
