@@ -13,9 +13,9 @@ App that allows to search for movies.
 
 TODO Movies could be kept as an object, for example
 {
-  title: {
-    5: [{...}, {...}, ...]
-  }
+title: {
+5: [{...}, {...}, ...]
+}
 }
 key -> page -> movies
 This way it's possible to cache some requests.
