@@ -11,7 +11,7 @@ import { HomePage } from 'features/home-page';
 const Root: FC = () => (
   <>
     <Nav />
-    <Box pt={3}>
+    <Box py={3}>
       <Switch>
         <Route exact path={paths.root} component={HomePage} />
         <Route path={paths.movieDetails(':id')} component={MovieDetails} />
