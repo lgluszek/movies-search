@@ -9,7 +9,7 @@ const theme = createMuiTheme({
       main: blue[800],
     },
     secondary: {
-      main: lightBlue['A100'],
+      main: lightBlue['50'],
     },
   },
   props: {
