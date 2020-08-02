@@ -19,10 +19,10 @@ const Introduction: FC<IntroductionProps> = ({ className }) => (
         <Link href="http://www.omdbapi.com/" target="_blank" rel="noreferrer">
           http://www.omdbapi.com/
         </Link>
-        . Not all features are implemented. To find list of things that are
+        . Not all features are implemented. To find a list of things that are
         planned to add, please go to the{' '}
         <Link
-          href="https://github.com/lgluszek"
+          href="https://github.com/lgluszek/movies-search/blob/master/README.md"
           target="_blank"
           rel="noreferrer"
         >
