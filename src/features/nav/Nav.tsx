@@ -20,6 +20,16 @@ const BackToHomePageSection = styled(BackToHomePage)`
   margin-top: ${({ theme }) => theme.spacing(3)}px;
 `;
 
+const SearchTextField = styled(TextField)`
+  & .MuiOutlinedInput-root {
+    & fieldset,
+    &.Mui-focused fieldset,
+    &:hover fieldset {
+      border-color: ${({ theme }) => theme.palette.primary.main};
+    }
+  }
+`;
+
 const Nav: FC = () => {
   const history = useHistory();
   const { register, handleSubmit, formState } = useForm<FormData>({
@@ -47,7 +57,7 @@ const Nav: FC = () => {
                 spacing={2}
               >
                 <Grid item xs={12} sm={6}>
-                  <TextField
+                  <SearchTextField
                     name="title"
                     label="Search for a movie"
                     variant="outlined"
