@@ -81,6 +81,7 @@ This way it's possible to cache some requests.
 - Make it a PWA.
 - Add a way to choose where a specific movie can be watched using subscription based services,
   or in TV.
+- Pagination on mobile should be displayed differently
 - Add a way to leave reviews and share it with others.
 - Implement a forum / comments section, but there had to be some way to make sure it won't get messy.
 - Ranking based on responses from users of this portal.
