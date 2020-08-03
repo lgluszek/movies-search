@@ -61,6 +61,10 @@ This way it's possible to cache some requests.
   - For a given hour there can be many titles that can fit into user's profile.
   - AI would be able to make better predictions with time.
   - User could get notification on their mobile phones, email, ...
+- "Quick search" results could be shown in a form of a list that would be displayed under text field
+  (so instead of text field I would display a dropdown). Search list could be prepared based on user's profile
+  and users' preferences. For example if users type "Harry", they are probably looking for "Harry Potter".
+- Movies list could be sorted by users' preferences (example I've used before).
 - Add "recently viewed" section.
 - More advanced breadcrumbs, instead of a "Back to homepage" button that is displayed
   on every page. except of a root.
