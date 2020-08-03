@@ -4,4 +4,4 @@ export { Errors as GetMoviesErrors } from './getMovies';
 export { Errors as GetMovieErrors } from './getMovies';
 export { default as getMovie } from './getMovie';
 export { default as getMovies } from './getMovies';
-export { Product } from './types';
+export { Product, Plot } from './types';

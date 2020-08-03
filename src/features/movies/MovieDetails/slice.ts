@@ -5,6 +5,7 @@ import {
   GetMovieErrors,
   GetMovieParams,
   MovieDetails,
+  Plot,
   requests,
 } from 'api/omdb';
 
@@ -60,7 +61,7 @@ export const getMovie = (params: GetMovieParams): AppThunk => async (
 
   try {
     dispatch(setMovieStart());
-    const { data } = await requests.getMovie(params);
+    const { data } = await requests.getMovie({ ...params, plot: Plot.Full });
 
     if ('Title' in data) {
       const movie = mapMovieDetails(data);

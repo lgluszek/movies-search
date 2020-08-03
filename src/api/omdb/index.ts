@@ -7,4 +7,4 @@ export type {
   GetMovieParams,
   MovieDetails,
 } from './requests';
-export { GetMoviesErrors, GetMovieErrors, Product } from './requests';
+export { GetMoviesErrors, GetMovieErrors, Product, Plot } from './requests';
