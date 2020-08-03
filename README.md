@@ -1,4 +1,4 @@
-#Movies search
+# Movies search
 
 App that allows users to search for movies. I've used Material UI, mostly due to the fact of limited
 time, that I wanted to spend on development. Folder structure is feature based. I thought about going
@@ -56,11 +56,11 @@ This way it's possible to cache some requests.
 
 - A cool feature would be to create AI (in future, maybe not as MVP, but it depends) planner. Let me explain:
   - It would a way to get reminders about movie/ TV series that a user would like to watch.
-  - Depending on previously set reminders, history in the app, interests (favourite actor, movie genre) it would be possible suggests movie titles, tv shows
-    for a user to add to plan.
+  - Depending on previously set reminders, history in the app, interests (favourite actor, movie genre) it would be possible to suggests movie titles, tv shows
+    for a user to add to a plan.
   - For a given hour there can be many titles that can fit into user's profile.
-  - AI would be able to make better predictions, more time user uses the planner.
-  - User could get notification on their mobile phones, email.
+  - AI would be able to make better predictions with time.
+  - User could get notification on their mobile phones, email, ...
 - Add "recently viewed" section.
 - More advanced breadcrumbs, instead of a "Back to homepage" button that is displayed
   on every page. except of a root.
@@ -69,7 +69,7 @@ This way it's possible to cache some requests.
 - Perform usability tests with users, and experts (cognitive walkthrough, control lists).
 - Add "Home page" icon in navigation bar.
 - More specific error pages with clear communicates for users, that explain what have happened, and what
-  they have to do (right now I've added pretty generic "Something went wrong" error).
+  they have to do (I've added generic "Something went wrong" error).
 - Display posters for "Most popular", "Movies list"
 - Disabled "Search" button can be confusing for user. They can ask themselves - "Why I can't click this button". It was
   quite handy solution, having in mind that I had limited time. It would be better to allow users to click this button
