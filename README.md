@@ -51,6 +51,7 @@ This way it's possible to cache some requests.
 - While developing it I didn't try to write "good commits". While working on serious project I would
   choose between Git Flow, Trunk based development or some custom solution.
 - I could have created more presentational components.
+- Styled-components could have been extracted to separate files.
 
 ### Application features
 
