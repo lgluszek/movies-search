@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
@@ -30,7 +30,7 @@ const Plot = styled(Section)`
   margin-top: ${({ theme }) => theme.spacing(2)}px;
 `;
 
-const MovieDetails: FC = () => {
+const MovieDetails = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const [isFetched, setIsFetched] = useState(false);

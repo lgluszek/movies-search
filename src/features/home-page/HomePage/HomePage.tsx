@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Container from '@material-ui/core/Container';
 import styled from 'styled-components';
 
@@ -9,7 +9,7 @@ const IntroductionSection = styled(Introduction)`
   margin-bottom: ${({ theme }) => theme.spacing(3)}px;
 `;
 
-const HomePage: FC = () => (
+const HomePage = () => (
   <Container>
     <IntroductionSection />
     <MostPopularSection />

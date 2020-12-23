@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
@@ -18,7 +18,7 @@ const Movie = styled(Card)`
   }
 `;
 
-const MostPopular: FC = () => (
+const MostPopular = () => (
   <section>
     <header>
       <Typography variant="h5" component="h2">

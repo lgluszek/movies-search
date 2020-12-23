@@ -1,11 +1,11 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
 import { paths } from 'router';
 
-const SomethingWentWrong: FC = () => (
+const SomethingWentWrong = () => (
   <Container>
     <Typography variant="body1">
       Something went wrong and we are very sorry. Our team is currently working

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 
@@ -6,7 +6,7 @@ type IntroductionProps = {
   className?: string;
 };
 
-const Introduction: FC<IntroductionProps> = ({ className }) => (
+const Introduction = ({ className }: IntroductionProps) => (
   <section className={className}>
     <header>
       <Typography gutterBottom variant="h5" component="h1">

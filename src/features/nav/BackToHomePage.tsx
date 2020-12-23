@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
@@ -10,7 +10,7 @@ type BackToHomePageProps = {
   className?: string;
 };
 
-const BackToHomePage: FC<BackToHomePageProps> = ({ className }) => (
+const BackToHomePage = ({ className }: BackToHomePageProps) => (
   <Container className={className}>
     <Button
       variant="outlined"

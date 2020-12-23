@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Box from '@material-ui/core/Box';
 
@@ -8,7 +8,7 @@ import { SomethingWentWrong } from 'features/errors';
 import { paths } from 'router';
 import { HomePage } from 'features/home-page';
 
-const Root: FC = () => (
+const Root = () => (
   <>
     <Nav />
     <Box py={3}>

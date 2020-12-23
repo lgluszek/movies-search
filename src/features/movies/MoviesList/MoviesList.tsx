@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC, useEffect, useState } from 'react';
+import React, { ChangeEvent, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Pagination from '@material-ui/lab/Pagination';
 import { Link as RouterLink, useHistory } from 'react-router-dom';
@@ -28,7 +28,7 @@ const Row = styled(Paper)`
   }
 `;
 
-const MoviesList: FC = () => {
+const MoviesList = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const title = useQuery().get('title') || '';

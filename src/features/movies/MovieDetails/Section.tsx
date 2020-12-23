@@ -1,4 +1,4 @@
-import React, { FC, ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
@@ -8,7 +8,7 @@ type SectionProps = {
   className?: string;
 };
 
-const Section: FC<SectionProps> = ({ title, body, className }) => (
+const Section = ({ title, body, className }: SectionProps) => (
   <section className={className}>
     <Box component="header" fontWeight="fontWeightBold" mb={1}>
       {title}

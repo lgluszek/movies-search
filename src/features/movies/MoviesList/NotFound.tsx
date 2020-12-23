@@ -1,8 +1,8 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 
-const NotFound: FC = () => (
+const NotFound = () => (
   <Container>
     <Box display="flex" justifyContent="center" alignItems="center">
       Unfortunately we couldn't find any movies with specified title, or you
